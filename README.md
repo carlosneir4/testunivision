@@ -15,7 +15,7 @@ $ git clone https://github.com/carlosneir4/widgets.git
 $ cd widgets/
 ```
 
-We need to install maven or add it to our IDE, also we should configure lombok to run JUnits.
+We need to install maven or add it to our IDE, java8 and also we should configure lombok to run JUnits.
 
 #### Build
 
