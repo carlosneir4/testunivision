@@ -3,9 +3,7 @@ package co.com.univision.widgets.utils;
 import co.com.univision.widgets.config.ConfigProperties;
 import lombok.extern.slf4j.Slf4j;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
-import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 

@@ -4,7 +4,6 @@ package co.com.univision.widgets.domain;
 import lombok.*;
 
 import java.util.List;
-import java.util.Set;
 
 /**
  * Model For Contens grouping by type.

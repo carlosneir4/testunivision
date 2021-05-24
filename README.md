@@ -18,12 +18,20 @@ $ cd widgets/
 We need to install maven or add it to our IDE, java8 and also we should configure lombok to run JUnits.
 
 #### Build
-
+Java
 ```
 $ mvn compile test package
 $ java -jar target/widgets-0.0.1-SNAPSHOT.jar
-or
+```
+Maven
+```
+$ mvn compile test package
 $ mvn spring-boot:run
+```
+Docker
+```
+$ docker build -t testunivision:1.0-SNAPSHOT .
+$ docker run -d -p 8080:8080 testunivision:1.0-SNAPSHOT
 ```
 #### Local RestApi endpoints
 
